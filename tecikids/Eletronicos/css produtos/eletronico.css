@@ -1,0 +1,70 @@
+
+
+    /* FUNDO COLORIDO */
+    body {
+        background: linear-gradient(135deg, #ffe8ff, #e4f1ff, #f8ffe5);
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+  
+
+    /* CONTAINER PRINCIPAL COM DOIS BLOCOS */
+    .container-duplo {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .bloco {
+        width: 45%;
+        background-color: #ffffffcc;
+        padding: 25px;
+        border-radius: 18px;
+        box-shadow: 0px 4px 15px #00000022;
+        border: 2px solid #ffc4fa;
+    }
+
+    /* TABELA BONITA E COLORIDA */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        font-size: 16px;
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 3px 8px #00000025;
+    }
+
+    th {
+        background: #ff9bf8;
+        color: black;
+        font-weight: bold;
+        padding: 12px;
+        text-align: center;
+    }
+
+    td {
+        padding: 12px;
+        border: 1px solid #ffc6fa;
+        text-align: center;
+    }
+
+    /* TEXTO MAIOR */
+    p, li {
+        font-size: 17px;
+    }
+
+    /* IMAGEM */
+    .imagem-produto {
+        width: 60%;
+        margin: 40px auto;
+        display: block;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px #0000003b;
+    }

@@ -1,0 +1,199 @@
+/* SLOGAN */
+.slogan-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.img-slogan {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.slogan-texts {
+    margin-top: 1.5rem;
+}
+
+.slogan-texts h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.slogan-texts p {
+    font-size: 1.4rem;
+    color: #444;
+    margin-top: 0.5rem;
+}
+
+
+/* BLOCOS LADO A LADO */
+.blocks-section {
+    padding: 4rem 0;
+}
+
+.double-blocks {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.block {
+    background: #f4f6ff;
+    padding: 2.5rem;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.block h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.block p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    color: #444;
+}
+
+
+/* SERVICES */
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.services-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+}
+
+.service-card {
+    background: #f4f6ff;
+    padding: 2rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.service-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+}
+
+.service-card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* OBJETIVO */
+.objective-text {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    background: #f4f6ff;
+    padding: 2.5rem;
+    border-radius: 18px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* CARROSSEL */
+.carousel-section {
+    padding: 4rem 0;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+
+/* BOTÕES */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    z-index: 10;
+    transition: 0.3s;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .carousel-btn {
+        font-size: 1.5rem;
+        padding: 0.4rem 0.7rem;
+    }
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--text-color);
+    color: #fff;
+    padding: 3rem 0;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.footer-section h3 {
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    display: block;
+    margin-top: .5rem;
+    color: white;
+    text-decoration: none;
+}

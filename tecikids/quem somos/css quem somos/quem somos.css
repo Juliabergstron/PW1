@@ -1,0 +1,112 @@
+/* ========= ESTILO MODERNO QUEM SOMOS ========= */
+
+body {
+    background-color: #e9e9f2; /* fundo realmente colorido */
+}
+
+/* Wrapper geral */
+.sobre-wrapper {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+/* Cada bloco (metade texto / metade fundo colorido) */
+.sobre-bloco {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    min-height: 280px;
+}
+
+/* Inverter lados */
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Parte do texto */
+.sobre-texto {
+    width: 50%;
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Títulos modernos */
+.sobre-texto h1,
+.sobre-texto h2 {
+    color: #111;
+    font-weight: 800;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+}
+
+/* Parágrafos */
+.sobre-texto p {
+    font-size: 1.15rem;
+    color: #444;
+    line-height: 1.7;
+}
+
+/* Lista */
+.sobre-texto ul {
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.sobre-texto li {
+    font-size: 1.12rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Parte colorida (fundo decorativo) */
+.sobre-cor {
+    width: 50%;
+    border-radius: 20px;
+}
+
+/* Variações coloridas que combinem com seu site */
+.sobre-cor1 {
+    background: #ff356b; /* rosa clarinho */
+}
+
+.sobre-cor2 {
+    background: #efa10f; /* amarelo suave */
+}
+
+.sobre-cor3 {
+    background: #1278df; /* azul bebê */
+}
+
+.sobre-cor4 {
+    background: #19fd24; /* verde pastel */
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+    .sobre-bloco {
+        flex-direction: column;
+    }
+
+    .reverse {
+        flex-direction: column;
+    }
+
+    .sobre-texto, .sobre-cor {
+        width: 100%;
+        height: auto;
+    }
+
+    .sobre-cor {
+        min-height: 160px;
+    }
+}
